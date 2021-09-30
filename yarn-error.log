@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\carme\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\SQL Anywhere 12\bin64;C:\Program Files\SQL Anywhere 12\bin32;C:\Program Files (x86)\Sybase\Shared\PowerBuilder;C:\Program Files (x86)\Sybase\PowerBuilder 12.5;C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319;C:\Xilinx92i\bin\nt;C:\Program Files\Git\cmd;C:\Users\carme\Downloads\apache-maven-3.6.2\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\GnuWin32\bin;C:\MinGW\bin;C:\Go\bin;C:\Xilinx92i\java\nt\jre\bin;C:\GnuWin32\bin;C:\Program Files\PuTTY\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\carme\AppData\Local\Microsoft\WindowsApps;C:\Users\carme\AppData\Local\GitHubDesktop\bin;C:\Users\carme\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.3\bin;;C:\Users\carme\AppData\Roaming\npm;C:\Users\carme\go\bin;C:\Program Files\Tesseract-OCR;C:\Program Files (x86)\Google\Chrome;C:\Program Files (x86)\Google\Chrome\Application\chrome.exe;C:\Users\carme\.dotnet\tools;C:\Program Files (x86)\GitHub CLI\;C:\Users\carme\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  12.14.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@types/node/-/node-16.10.2.tgz: Request failed "502 Bad Gateway"
+      at ResponseError.ExtendableBuiltin (C:\Users\carme\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:696:66)
+      at new ResponseError (C:\Users\carme\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (C:\Users\carme\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:67062:16)
+      at Request.emit (events.js:210:5)
+      at Request.module.exports.Request.onRequestResponse (C:\Users\carme\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141640:10)
+      at ClientRequest.emit (events.js:210:5)
+      at HTTPParser.parserOnIncomingClient [as onIncoming] (_http_client.js:583:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:115:17)
+      at HTTPParser.execute (<anonymous>)
+      at TLSSocket.socketOnData (_http_client.js:456:22)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "expo": "~42.0.1",
+      "expo-status-bar": "~1.0.4",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+      "react-native-web": "~0.13.12"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
